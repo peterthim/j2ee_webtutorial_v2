@@ -13,16 +13,35 @@
         <h:head>
                 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
                 <title><ui:insert name="title" /></title>
-                <!-- 
                 <link rel="stylesheet" type="text/css" href="${request.contextPath}/resources/css/style.css" />
-                <link rel="shortcut icon" href="${request.contextPath}/resources/css/images/favicon.ico" />
-                 -->
+                
+                
         </h:head>
         
         <h:body>
-        	<h1>Webflow Facets +
-			<ui:insert name="body"/>
-			</h1>        
+        	<div id="container">
+        		<div id="header">
+        			<h1> Please sign in</h1>
+        			
+        			<ui:insert name="header"/>
+        		</div>
+        		<div id="content">
+        			<ui:insert name="content"/>
+        		</div>
+        		<div id="footer">
+        			<ui:insert name="footer"/>
+        		</div>
+        	</div>
+        </h:body>
+</f:view>
+</html>
+
+
+		<!--
+                <link rel="shortcut icon" href="${request.contextPath}/resources/css/images/favicon.ico" />
+                 -->
+
+			        
         <!-- 
                 <p:ajaxStatus onstart="statusDialog.show();" onsuccess="statusDialog.hide();" />
                 <p:dialog modal="true" widgetVar="statusDialog" header="Processing..." draggable="true" closable="false">
@@ -48,7 +67,3 @@
                         </div>
                 </div>
                  -->
-        </h:body>
-
-</f:view>
-</html>

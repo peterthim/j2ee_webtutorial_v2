@@ -1,0 +1,17 @@
+#container {
+	width: 95%;
+	height: 600px;
+	margin: 50px auto;
+	padding: 20px 20px;
+	box-shadow: 2px, 20x, 10px, #888;
+	background: url(images/noise3.png);
+}
+
+#header {
+		height: 60px;
+		text-align:center;
+		background-color: #525252;
+		color: white;
+		
+	
+}
